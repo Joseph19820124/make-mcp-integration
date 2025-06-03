@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "make": {
+      "command": "node",
+      "args": ["/path/to/make-mcp-server/src/server.js"],
+      "env": {
+        "MAKE_API_TOKEN": "your_api_token_here",
+        "MAKE_REGION": "eu1"
+      }
+    }
+  }
+}
